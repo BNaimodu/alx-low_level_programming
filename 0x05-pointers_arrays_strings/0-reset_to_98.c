@@ -7,20 +7,21 @@
  */
 void reset_to_98(int *n)
 {
-    *n = 98;
+	*n = 98;
 }
 
 int main(void)
 {
-    int n;
+	int n;
 
-    n = 402;
-    printf("n=%d\n", n);
+	n = 402;
+	printf("n=%d\n", n);
 
-    // Call the function to reset n to 98
-    reset_to_98(&n);
+	/* Call the function to reset n to 98 */
+	reset_to_98(&n);
 
-    printf("n=%d\n", n);
+	printf("n=%d\n", n);
 
-    return (0);
+	return (0);
 }
+
